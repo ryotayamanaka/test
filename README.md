@@ -21,6 +21,10 @@ This implementation of Prim's algorithm works on undirected graphs that are conn
 | :--- | :--- | :---|
 | `in_mst` | edgeProp | edge property holding the edges belonging to the minimum spanning tree of the graph (i.e. all the edges with in_mst=true). |
 
+| Return Value | Type | Comment |
+| :--- | :--- | :---|
+|  | double | the total weight associated to the MST. |
+
 ```java
 /*
  * Copyright (C) 2013 - 2020 Oracle and/or its affiliates. All rights reserved.
